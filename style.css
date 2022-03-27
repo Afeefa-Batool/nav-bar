@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+.banner
+{
+    height:100vh;
+    width: 100%;
+    background-image:linear-gradient(rgba(0, 0, 0, 0.75),rgba(0, 0, 0, 0.75)),url(mar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+img{
+    height: 100px;
+    width: 100px;
+    cursor: pointer;
+ 
+}
+.navbar{
+    padding-top: 30px;
+    padding-left: 50px;
+    display: flex;
+    width: 90%;
+    justify-content: space-between;
+    align-items:center;
+   
+    
+}
+.navbar ul li{
+    display:inline-block;
+    list-style-type: none;
+    padding: 40px;
+    color:white;
+    position: relative;
+    
+}
+
+.navbar ul li::before{
+    content: '';
+    background: olive;
+    height: 3px;
+    width: 0;
+    left: 25px;
+    bottom: 30px;
+    position: absolute;
+    transition: 0.75s;
+
+}
+.navbar ul li:hover::before{
+    
+    width: 100%;
+    
+
+}
+.navbar ul li a{
+
+    font-size: 20px;
+    text-decoration: none;
+   text-transform: uppercase;
+   
+}
+
+.content-banner{
+
+height: 280px;
+width: 50%;
+margin-left:360px ;
+
+margin-top: 100px;
+}
+.content-banner p{
+text-align: center;
+color: white;
+font-size: 20px;
+line-height: 30px;
+}
+.content-banner h1{
+    font-size:55px ;
+    text-align: center;
+    color: white;
+    padding: 15px;
+    word-spacing: 28px;
+}
+.content-banner button{
+
+height: 40px;
+width:30% ;
+margin-left: 100px;
+line-height: 30px;
+border-radius: 20px;
+border-color: yellowgreen;
+text-align: center;
+margin-top: 10px;
+background-color: transparent;
+color: white;
+font-size:22px ;
+
+}
+
